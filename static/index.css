@@ -219,15 +219,16 @@ section
 .skill-item-text
   { text-align: left;
     padding-left: 3px;
-    width: 70%;
+width: 0%;
     border-right: 2px solid white;
     color: white;
     /*background:linear-gradient(to right,#cc2b5e ,#753a88);*/
-    background:linear-gradient(to top right,#000428 ,#004e92);
+    /*background:linear-gradient(to top right,#000428 ,#004e92);*/
     border-radius: 20px;
     font-family: SansSerif;
     font-weight: bolder;
     box-shadow: 1px 1px 1px grey;
+    transition:all 2s ease-in-out;
 
 }
 #skill-image
