@@ -6,14 +6,14 @@ function scrollfn(event) {
     let targetpos = target.y;
     let curPos=0;
     function scrolling() {
-        window.scrollBy(0,100);
-        curPos+=100;
-        if (curPos+100>=targetpos) {
+        window.scrollBy(0,20);
+        curPos+=20;
+        if (document.getElementById(targetSection).getBoundingClientRect().top<0) {
             clearInterval(id);
             return;
         }
     }
-        var id=setInterval(scrolling,100);
+        var id=setInterval(scrolling,20);
 
 }
 
